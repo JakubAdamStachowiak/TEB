@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tablice</title>
+  </head>
+  <body>
+    <form>
+<input type="text" id="imie" placeholder="Imie" ><br>
+<input type="text" id="nazwisko" placeholder="Nazwisko"><br>
+
+<select id="miasto">
+  <optgroup label="Wielkopolska">
+    <option value="p">Poznań</option>
+    <option value="g">Gniezno</option>
+  </optgroup>
+  <optgroup value="Zachodniopomorskie" label="Zachodniopomorskie">
+    <option value="s">Stargard</option>
+    <option value="sz">Szczecin</option>
+  </optgroup>
+	</select><br><br>
+<input type="radio" id="szkola1" name="szkola" value="Szkoła średnia" checked>Szkoła średnia
+<input type="radio" id="szkola2" name="szkola" value="Studia">Studia
+
+    </form><br><br>
+<input type="submit" id="przycisk" value="Zatwierdź">
+<div id="komunikat">
+</div>
+
+
+    <script src='JS/8_1tablice.js'></script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Zdarzenia</title>
+  </head>
+  <body>
+    <button id="przycisk">Pokaż</button>
+    <div id="blok"></div>
+    <script>
+      let elPrzycisk = document.getElementById('przycisk');
+      let elBlok = document.getElementById('blok');
+
+      elPrzycisk.addEventListener('click', function(){
+        elBlok.innerHTML += ' click <br>';
+      })
+
+      elPrzycisk.addEventListener('mousedown', function(){
+        elBlok.innerHTML += 'Naciśnięcie przycisku myszy <br>';
+      })
+
+      elPrzycisk.addEventListener('mouseup', function(){
+        elBlok.innerHTML += 'Puszczenie przycisku myszy <br>';
+      })
+
+      elPrzycisk.addEventListener('mouseover', function(){
+        elBlok.innerHTML += ' Najechanie myszką na przycisk <br>';
+      })
+
+      elPrzycisk.addEventListener('mousemove', function(){
+        elBlok.innerHTML += 'Poruszanie po elemencie <br>';
+      })
+
+      elPrzycisk.addEventListener('mouseout', function(){
+        elBlok.innerHTML += 'Opuszczenie elementu <br>';
+      })
+
+      elPrzycisk.addEventListener('dblclick', function(){
+        elBlok.innerHTML += 'Podwójne kilknięcie <br>';
+      })
+
+    </script>
+  </body>
+</html>
