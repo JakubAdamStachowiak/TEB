@@ -1,4 +1,3 @@
-/*
 let zmienna = 18;         //ZMIENNE TWORZYC LETEM
 
 
@@ -84,28 +83,13 @@ document.write("<br>Suma "+ l3 + " i "+ l4 +" wynosi: "+dodawanie1);
 //camel case
 // liczba pierwsza zmienna pomocnicza mam na imie
 
-napisz program ktory obliczy pole prostokata
+/*napisz program ktory obliczy pole prostokata
 dane podaje uzytkownik z klawiatury liczby zmiennoprzecinkowe
 wynik wyswietl na ekranie w formacie: "Bok a = ......., bok b = ......,
 pole wynosi : ....cm^2"
-
+*/
 let p = parseFloat(prompt("Podaj bok: a"));
 let o = parseFloat(prompt("Podaj bok: b"));
 
 let mnozenie = p*o;
 document.write("<br> Bok a = "+p+ ",bok b = "+o+",pole wynosi: " +mnozenie+"cm<sup>2</sup>");
-
-//////////// zadanie domowe
-let boktroj = parseFloat(prompt("Podaj dlugosc jednego boku trojkata: "));
-let wysokosc = parseFloat(prompt("Podaj wysokosc trojkata: "))
-
-let pole = 1/2*boktroj*wysokosc
-document.write("<br> Dlugosc boku= "+boktroj+ "cm, Wysokosc trojkata= "+wysokosc+"cm, Pole trojkata wynosi= "+pole+"cm<sup>2</sup>");
-*/
-
-///////////////zadanie domowe pole kola
-let promien = parseFloat(prompt("Podaj promien: "));
-
-let polekola = Math.PI*Math.pow(promien, 2);
-
-document.write("Promien kola= "+promien+ "cm, Pole kola wynosi= "+polekola+"cm<sup>2</sup>");
