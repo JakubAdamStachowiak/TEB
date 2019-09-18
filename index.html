@@ -1,17 +1,46 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<body>
-<head>
-  <meta charset=utf-8>
-  <script type="text/javascript" src="JS/3_1_switch.js"></script>
-</head>
-  <form id="frm1" action="/action_page.php">
-    <input type="text" id="kolor1">
-    <input type="text" id="kolor2">
-  </form>
-  <input type="submit" id="przycisk" value="Zatwierdź">
-  <script src="JS/3_1_switch">
-  </script>
-
-</body>
+    <title>Pogotowie Komputerowe</title>
+    <head>
+        <link rel="stylesheet" href="styl.css">
+    </head>
+    <body>
+        
+        <img src="animacja.gif" style="text-align: center;"><br>
+        <p>Imie: </p>
+        <p>Nazwisko: </p>
+        <p>E-mail: </p>
+        <p>Usluga: </p>
+        <form>
+            <input type="text" id="Imie"><br>
+            <input type="text" id="Nazwisko"><br>
+            <input type="text" id="email"><br>
+            <input type="text" id="usluga"><br>
+        </form>
+        
+        <button id="przycisk">wyslij</button>
+        <div id="wyswietlenie"></div>
+        <script>
+            console.log('xd');
+            alert("xd");
+            var Imie = document.getElementById("Imie");
+            var Nazwisko = document.getElementById("Nazwisko");
+            var email = document.getElementById("email");
+            var usluga = document.getElementById("usluga");
+            
+            var wyswietlenie = document.getElementById("wyswielenie");
+            
+            let przycisk = document.getElementById("przycisk");
+            przycisk.addEventListener('onclick', function()
+            {
+                Imie = document.getElementById("Imie");
+                Nazwisko = document.getElementById("Nazwisko");
+                email = document.getElementById("email");
+                usluga = document.getElementById("usluga");
+                
+                wyswietlenie.innerHTML += (Imie, Nazwisko, email, usluga);
+                alert("dziala");
+            })
+        </script>
+    </body>
 </html>

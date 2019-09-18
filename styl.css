@@ -1,0 +1,56 @@
+body
+{
+    background: #99FFCC;
+}
+container
+{
+    width: 1000px;
+    margin: auto;
+}
+banner
+{
+    background-color: #99FF66;
+    height: 200px;
+}
+menu
+{
+    background-color: #66CCFF;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+Column
+{
+    width: 310px;
+    padding: 10px;
+}
+footer
+{
+    background-color: #66CCFF;
+    color: #006666;
+    text-align: right;
+    height: 30px;
+    padding: 20px;
+}
+reference
+{
+    color: #006666;
+    margin: 50px;
+    font-size: 200%;
+}
+h2
+{
+    text-align: center;
+}
+h3
+{
+    text-align: center;
+}
+button-clear
+{
+    background-color: #FF0000;
+}
+button-script
+{
+    background-color: #00FF00;
+}
